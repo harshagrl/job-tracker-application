@@ -1,0 +1,67 @@
+# Node.js
+# Ignore node_modules for both backend and frontend
+backend/node_modules/
+frontend/node_modules/
+npm-debug.log
+.npm/
+.yarn/
+yarn-error.log
+.pnpm-store/
+
+# Environment variables
+# Ignore .env files in both backend and frontend directories
+backend/.env
+frontend/.env
+# Also ignore common local environment files
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Build output directories
+# For Vite frontend
+frontend/dist/
+# Potentially for backend if you compile TypeScript or similar
+backend/build/
+backend/dist/
+
+# Logs
+*.log
+logs/
+
+# Runtime data
+*.sqlite
+*.sqlite-journal
+*.db
+
+# OS generated files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Ss]napshots/
+*.vmdk
+.vagrant/
+
+# VS Code files
+.vscode/
+# Uncomment the following lines if you want to ignore specific VS Code settings
+.vscode/settings.json
+.vscode/tasks.json
+.vscode/launch.json
+.vscode/extensions.json
+.vscode/*.code-workspace
+
+# IDE-specific files (e.g., WebStorm, IntelliJ)
+.idea/
+
+# Uploaded resumes (if not stored in DB, but in this project they are in DB so not strictly needed)
+# backend/uploads/
+
+# Other temporary files
+*.tmp
+*.bak
+*.swp
+*~
+.DS_Store
